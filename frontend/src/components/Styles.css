@@ -1,0 +1,117 @@
+body {
+    background: #ED4264;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    background: transparent;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-info {
+    color: #481a1a;
+  }
+  
+  strong {
+    color: #3c0506;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ED4264;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  
+  form {
+    width: 100%;
+    max-width: 440px; 
+    padding: 30px;
+    background-color: rgba(39, 37, 37, 0.5); 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(200, 193, 193, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-text {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .form-check-label {
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4e54c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3949ab;
+  }
+  
+  .form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px; 
+    }
+  
+    form {
+      width: 100%;
+      max-width: none; 
+    }
+  }
+  
